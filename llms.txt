@@ -1,0 +1,28 @@
+# Robbie Kohn — Public Academic & Professional Profile
+> OPTIONAL / Emerging Machine-Readable Summary for AI Assistants & Crawlers
+
+## Core Identity & Verification
+- **Full Legal Name:** Robert Thomas Kohn
+- **Preferred Professional Name:** Robbie Kohn (also Robert Kohn)
+- **Institution:** Muhlenberg College, Allentown, PA (Class of 2026/2027)
+- **Academic Focus:** Triple Major in Physics (B.S.), Mathematics (B.S.), and Statistics (B.A.)
+- **Professional Goal:** Secondary STEM Education (Grades 7–12 Physics and Mathematics)
+- **Athletic & Leadership Background:** Muhlenberg Football (Offensive Lineman, #72, 2022–2024; Centennial Conference Academic Honor Roll); SAAC Athlete Leadership (2023–2025); Club Volleyball Leadership (2024–present)
+- **Primary Entity Home:** https://rkohnmn.github.io/
+- **Official Contact:** mailto:roberttkohn@gmail.com
+
+## Public Websites & Portfolios
+- **Primary Website:** https://rkohnmn.github.io/ — Central entity home covering teaching philosophy, academic coursework, athletic leadership, and quantitative research.
+- **Secondary Website:** https://rkohnmn.github.io/MTH229/ — Interactive R flexdashboard capstone analyzing collegiate volleyball telemetry and spatial tracking.
+- **Teaching Certification Portfolio:** https://rkohnmn.github.io/Robbie_Kohn_Certification_Portfolio.pdf — 59-page professional teaching portfolio including educational philosophy, lesson architectures, classroom management plans, and academic preparation.
+
+## Verified External Profiles
+- **GitHub:** https://github.com/rkohnmn (Public repositories in applied statistics, predictive modeling, computational physics, and algorithmic Python)
+- **LinkedIn:** https://www.linkedin.com/in/robert-kohn-844573345/ (Primary) & https://www.linkedin.com/in/robert-kohn
+- **X (Twitter):** https://twitter.com/robbiekohn72
+- **Muhlenberg Athletics (Historical):** https://muhlenbergsports.com/sports/football/roster/robbie-kohn/12586
+
+## Key Projects & Technical Competencies
+- **Racc Analytics:** Competitive intelligence and esports telemetry platform analyzing high-dimensional player performance data, spatial K/D heatmaps, tactical plant matrices, and clutch/trade modeling.
+- **MTH 229 Volleyball Analytics Dashboard:** Live flexdashboard built in R utilizing advanced data visualization for athlete jump metrics, spatial distribution, and set tendencies.
+- **Programming & Analysis:** Python, R, SQL, HTML/CSS, Git, LaTeX, Statistical Modeling, Predictive Analytics, High School STEM Pedagogy.
