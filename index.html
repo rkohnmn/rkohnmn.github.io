@@ -994,6 +994,302 @@ is embedded in the download anchor. No trackers, backend, cookies or remote font
       padding-left: 18px
     }
 
+    /* 09b. Teaching Instructional Samples */
+    .dark .button {
+      background: var(--paper);
+      color: var(--ink);
+      border-color: var(--paper);
+    }
+
+    .dark .button:hover {
+      background: #ffffff;
+      color: var(--ink);
+      transform: translateY(-2px);
+    }
+
+    .dark .button--secondary {
+      background: transparent;
+      color: var(--paper);
+      border: 1px solid var(--dark-line);
+    }
+
+    .dark .button--secondary:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: #82998d;
+      color: var(--paper);
+    }
+
+    .teaching-samples {
+      margin-top: 75px;
+      padding-top: 48px;
+      border-top: 1px solid var(--dark-line);
+    }
+
+    .teaching-samples-heading {
+      margin-bottom: 40px;
+    }
+
+    .teaching-samples-heading .section-no {
+      color: #d8ac85;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .teaching-samples-heading h3 {
+      font-size: clamp(28px, 3.2vw, 42px);
+      letter-spacing: -.025em;
+      line-height: 1.25;
+      margin: 10px 0 14px;
+      max-width: 22ch;
+    }
+
+    .teaching-samples-heading p {
+      color: var(--dark-muted);
+      font-size: 15px;
+      line-height: 1.6;
+      max-width: 68ch;
+    }
+
+    .instructional-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--dark-line);
+      border-radius: var(--radius);
+      padding: clamp(24px, 3.2vw, 42px);
+      margin-bottom: 36px;
+      transition: border-color var(--duration), box-shadow var(--duration);
+    }
+
+    .instructional-card:hover {
+      border-color: #82998d;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+    }
+
+    .instructional-card-header {
+      margin-bottom: 24px;
+    }
+
+    .instructional-card-header .label {
+      color: #d8ac85;
+      font-size: 11px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+
+    .instructional-card-header h4 {
+      font-size: clamp(22px, 2.4vw, 32px);
+      font-family: var(--serif);
+      font-weight: 400;
+      letter-spacing: -.02em;
+      line-height: 1.25;
+      color: var(--paper);
+      margin: 0 0 12px;
+    }
+
+    .instructional-card-header p {
+      color: var(--dark-muted);
+      font-size: 14.5px;
+      line-height: 1.6;
+      max-width: 72ch;
+      margin: 0;
+    }
+
+    /* Calculus Problem-Solving Subgrid */
+    .calculus-subgrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      margin-top: 24px;
+    }
+
+    .lesson-subcard {
+      background: rgba(0, 0, 0, 0.22);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: var(--radius);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: border-color var(--duration);
+    }
+
+    .lesson-subcard:hover {
+      border-color: #d8ac85;
+    }
+
+    .lesson-subcard-top {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 18px;
+      align-items: start;
+      margin-bottom: 16px;
+    }
+
+    .lesson-thumb-frame {
+      display: block;
+      border-radius: 2px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+      background: #11201e;
+    }
+
+    .lesson-thumb {
+      width: 100%;
+      aspect-ratio: 400 / 518;
+      object-fit: cover;
+      display: block;
+      transition: transform var(--duration) var(--ease);
+    }
+
+    .lesson-subcard:hover .lesson-thumb {
+      transform: scale(1.02);
+    }
+
+    .lesson-subcard-info .lesson-badge {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: #d8ac85;
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    .lesson-subcard-info h5 {
+      font-size: 18px;
+      font-family: var(--serif);
+      font-weight: 400;
+      line-height: 1.3;
+      margin: 0 0 8px;
+      color: var(--paper);
+    }
+
+    .lesson-subcard-info p {
+      font-size: 13.5px;
+      color: var(--dark-muted);
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    .lesson-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+      margin-bottom: 16px;
+    }
+
+    .lesson-tag {
+      font-size: 11px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--dark-muted);
+      padding: 3px 8px;
+      border-radius: 2px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .lesson-actions {
+      margin-top: auto;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    /* Single Advanced Physics Card Layout */
+    .single-sample-grid {
+      display: grid;
+      grid-template-columns: 1fr 140px;
+      gap: 32px;
+      align-items: center;
+    }
+
+    .single-sample-grid .lesson-actions {
+      border-top: none;
+      padding-top: 8px;
+      margin-top: 18px;
+    }
+
+    /* Photon Dual Artifact Project Layout */
+    .photon-sample-grid {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 36px;
+      align-items: center;
+    }
+
+    .photon-previews {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .presentation-thumb {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      display: block;
+      border-radius: 2px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+      transition: transform var(--duration) var(--ease);
+    }
+
+    .instructional-card:hover .presentation-thumb {
+      transform: scale(1.02);
+    }
+
+    .dual-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 20px;
+    }
+
+    @media(max-width:950px) {
+      .calculus-subgrid {
+        grid-template-columns: 1fr;
+      }
+      .single-sample-grid {
+        grid-template-columns: 1fr;
+      }
+      .single-sample-grid .lesson-thumb-frame {
+        max-width: 140px;
+        order: -1;
+        margin-bottom: 16px;
+      }
+      .photon-sample-grid {
+        grid-template-columns: 1fr;
+      }
+      .photon-previews {
+        max-width: 320px;
+        order: -1;
+        margin-bottom: 20px;
+      }
+    }
+
+    @media(max-width:700px) {
+      .lesson-subcard-top {
+        grid-template-columns: 80px 1fr;
+        gap: 14px;
+      }
+      .photon-previews {
+        grid-template-columns: 80px 1fr;
+        gap: 10px;
+      }
+      .dual-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .dual-actions .button {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
     /* 10. Academic panels */
     .disciplines {
       display: grid;
@@ -2917,6 +3213,144 @@ confirm the schools, responsibilities and dates. Do not call it student teaching
 an idea could sit here. Landscape 3:2 crop; focus on the work and a natural interaction.
 Use only with school permission and any required permissions for identifiable students.
 Embed a compressed data URI; supply literal, accurate alt text. No stock classroom photo. -->
+      
+        <!-- ======================== INSTRUCTIONAL ARTIFACTS SHOWCASE ======================== -->
+        <div class="teaching-samples" id="instructional-work" aria-labelledby="teaching-samples-title">
+          <div class="teaching-samples-heading">
+            <span class="label">Instructional Portfolio Artifacts</span>
+            <h3 id="teaching-samples-title">Structured pedagogy across mathematics and physics.</h3>
+            <p>Selected instructional designs prepared as professional artifacts for educator preparation.
+              These materials demonstrate disciplined lesson organization, systematic mathematical modeling,
+              explicit misconception analysis, and pedagogical translation of advanced concepts.</p>
+          </div>
+
+          <!-- PROJECT 1: CALCULUS PROBLEM-SOLVING SERIES -->
+          <article class="instructional-card" aria-labelledby="calc-series-title">
+            <div class="instructional-card-header">
+              <span class="label">Calculus Problem-Solving Series · Calculus I</span>
+              <h4 id="calc-series-title">Structured Problem-Solving Frameworks</h4>
+              <p>Introductory calculus word problems often provoke student anxiety when treated as disconnected
+                puzzles requiring arbitrary tricks. These two instructional samples provide repeatable, structured
+                frameworks that guide students from physical or geometric modeling through differential calculus,
+                critical analysis, and contextual interpretation.</p>
+            </div>
+            <div class="calculus-subgrid">
+              <!-- Lesson A: Related Rates -->
+              <div class="lesson-subcard">
+                <div>
+                  <div class="lesson-subcard-top">
+                    <a class="lesson-thumb-frame" href="robbie-kohn-related-rates-lesson.pdf" target="_blank" rel="noopener noreferrer" aria-label="View Related Rates Lesson Plan (PDF)">
+                      <img class="lesson-thumb" src="assets/teaching/thumbnails/related-rates-preview.png" alt="Preview of Related Rates Lesson Plan title page" width="100" height="130" loading="lazy">
+                    </a>
+                    <div class="lesson-subcard-info">
+                      <span class="lesson-badge">Lesson Plan A</span>
+                      <h5>Related Rates — A Structured Problem-Solving Framework</h5>
+                      <p>Equips students with an 8-step framework connecting changing quantities to implicit differentiation with respect to time.</p>
+                    </div>
+                  </div>
+                  <p>Explicitly addresses the foundational misconception of premature numerical substitution before differentiation, utilizes the chain rule, and concludes with an exit task evaluating both procedure and conceptual reasoning.</p>
+                  <div class="lesson-tags">
+                    <span class="lesson-tag">Calculus I / AP</span>
+                    <span class="lesson-tag">Time Rates (d/dt)</span>
+                    <span class="lesson-tag">Chain Rule</span>
+                    <span class="lesson-tag">Misconceptions</span>
+                    <span class="lesson-tag">7 Pages</span>
+                  </div>
+                </div>
+                <div class="lesson-actions">
+                  <a class="button button--secondary" href="robbie-kohn-related-rates-lesson.pdf" target="_blank" rel="noopener noreferrer">View Lesson Plan <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens Related Rates PDF)</span></a>
+                </div>
+              </div>
+
+              <!-- Lesson B: Optimization -->
+              <div class="lesson-subcard">
+                <div>
+                  <div class="lesson-subcard-top">
+                    <a class="lesson-thumb-frame" href="robbie-kohn-optimization-lesson.pdf" target="_blank" rel="noopener noreferrer" aria-label="View Optimization Lesson Plan (PDF)">
+                      <img class="lesson-thumb" src="assets/teaching/thumbnails/optimization-preview.png" alt="Preview of Optimization Lesson Plan title page" width="100" height="130" loading="lazy">
+                    </a>
+                    <div class="lesson-subcard-info">
+                      <span class="lesson-badge">Lesson Plan B</span>
+                      <h5>Optimization — A Structured Problem-Solving Framework</h5>
+                      <p>A rigorous modeling workflow separating objective functions from constraints and enforcing physical feasible domains.</p>
+                    </div>
+                  </div>
+                  <p>Guides students through an 8-step process: reducing to one variable, verifying candidates against closed-interval endpoints or derivative tests, and confronting misconceptions regarding unconstrained critical points.</p>
+                  <div class="lesson-tags">
+                    <span class="lesson-tag">Calculus I / AP</span>
+                    <span class="lesson-tag">Objective vs. Constraint</span>
+                    <span class="lesson-tag">Feasible Domain</span>
+                    <span class="lesson-tag">Extreme Value Theorem</span>
+                    <span class="lesson-tag">7 Pages</span>
+                  </div>
+                </div>
+                <div class="lesson-actions">
+                  <a class="button button--secondary" href="robbie-kohn-optimization-lesson.pdf" target="_blank" rel="noopener noreferrer">View Lesson Plan <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens Optimization PDF)</span></a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: SEQUENTIAL STERN-GERLACH -->
+          <article class="instructional-card" aria-labelledby="sg-title">
+            <div class="single-sample-grid">
+              <div>
+                <div class="instructional-card-header" style="margin-bottom:14px">
+                  <span class="label">Advanced Physics Instructional Sample · Advanced Undergraduate Quantum Mechanics</span>
+                  <h4 id="sg-title">Sequential Stern–Gerlach Measurements for Spin-1 Particles</h4>
+                  <p>Demonstrates instructional design and scaffolding for a three-state quantum system ($S=1$). Rather than treating quantum measurement as abstract linear algebra, the lesson contrasts spin-1 with spin-1/2 systems, leverages an intuitive geometric basis-change analogy, and confronts the pervasive student misconception that perpendicular filter measurements yield equal 50/50 probabilities.</p>
+                </div>
+                <div class="lesson-tags">
+                  <span class="lesson-tag">Quantum Measurement</span>
+                  <span class="lesson-tag">Spin-1 (3-State) Systems</span>
+                  <span class="lesson-tag">Basis Transformations</span>
+                  <span class="lesson-tag">Born Rule &amp; Probabilities</span>
+                  <span class="lesson-tag">Misconception-Driven</span>
+                  <span class="lesson-tag">7 Pages</span>
+                </div>
+                <div class="lesson-actions">
+                  <a class="button button--secondary" href="robbie-kohn-stern-gerlach-spin1-lesson.pdf" target="_blank" rel="noopener noreferrer">View Lesson Plan <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens Stern–Gerlach PDF)</span></a>
+                </div>
+              </div>
+              <a class="lesson-thumb-frame" href="robbie-kohn-stern-gerlach-spin1-lesson.pdf" target="_blank" rel="noopener noreferrer" aria-label="View Stern-Gerlach Lesson Plan (PDF)">
+                <img class="lesson-thumb" src="assets/teaching/thumbnails/stern-gerlach-preview.png" alt="Preview of Stern-Gerlach Lesson Plan title page" width="140" height="181" loading="lazy">
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: PHOTON SPIN & POLARIZATION (INTEGRATED WRITTEN LESSON + PRESENTATION) -->
+          <article class="instructional-card" aria-labelledby="photon-title">
+            <div class="photon-sample-grid">
+              <div>
+                <div class="instructional-card-header" style="margin-bottom:14px">
+                  <span class="label">Advanced Physics Instructional Project · Advanced Undergraduate Physics / Quantum Optics</span>
+                  <h4 id="photon-title">Photon Polarization as a Spin-1 Quantum System</h4>
+                  <p>An integrated instructional project pairing a rigorous written lesson plan with an accompanying 11-slide pedagogical presentation. The project clarifies the critical physical distinction between massive spin-1 systems and massless relativistic photons (helicity $\lambda = \pm 1$), establishes circular polarization states as eigenstates of $J_z$, executes Townsend Example 2.8 basis transformations, and bridges matrix mechanics to optical waveplates and photon entanglement.</p>
+                </div>
+                <div class="lesson-tags">
+                  <span class="lesson-tag">Written Lesson + Slide Deck</span>
+                  <span class="lesson-tag">Massless Helicity ($\lambda=\pm 1$)</span>
+                  <span class="lesson-tag">Townsend Ex. 2.8</span>
+                  <span class="lesson-tag">Quarter-Wave Plates</span>
+                  <span class="lesson-tag">Quantum Information</span>
+                </div>
+                <div class="dual-actions">
+                  <a class="button" href="robbie-kohn-photon-polarization-lesson.pdf" target="_blank" rel="noopener noreferrer">View Lesson Plan <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens Photon Polarization Lesson Plan PDF)</span></a>
+                  <a class="button button--secondary" href="robbie-kohn-photon-spin-presentation.pdf" target="_blank" rel="noopener noreferrer">View Presentation <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens Photon Spin Presentation PDF)</span></a>
+                </div>
+              </div>
+              <div class="photon-previews">
+                <a class="lesson-thumb-frame" href="robbie-kohn-photon-polarization-lesson.pdf" target="_blank" rel="noopener noreferrer" aria-label="View Photon Polarization Lesson Plan (PDF)">
+                  <img class="lesson-thumb" src="assets/teaching/thumbnails/photon-polarization-preview.png" alt="Preview of Photon Polarization Lesson Plan" width="100" height="130" loading="lazy">
+                </a>
+                <a href="robbie-kohn-photon-spin-presentation.pdf" target="_blank" rel="noopener noreferrer" aria-label="View Photon Spin Presentation (PDF)">
+                  <img class="presentation-thumb" src="assets/teaching/thumbnails/photon-spin-presentation-preview.png" alt="Preview of Photon Spin Presentation Deck title slide" width="180" height="101" loading="lazy">
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
       </div>
     </section>
 
