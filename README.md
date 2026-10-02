@@ -15,4 +15,4 @@ Official personal portfolio website of **Robbie Kohn**, undergraduate student at
 - **Classroom Experience:** Substitute Teacher, Weston Public Schools (2024–2027)
 - **Leadership:** Head Chef / Head Cook, Weston Field Club (2024–2026)
 - **Athletics:** Offensive Lineman (#72), Muhlenberg College Football; Muhlenberg Club Volleyball Leadership
-- **Software Projects:** Creator of [Racc Analytics](https://github.com/rkohnmn/raccanalytics) esports telemetry platform
+- **Software Projects:** Creator of [Racc Analytics](https://github.com/rkohnmn) (in active development; staging for public release)
