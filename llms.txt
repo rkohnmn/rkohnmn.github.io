@@ -13,6 +13,7 @@
 
 ## Public Websites & Portfolios
 - **Primary Website:** https://rkohnmn.github.io/ — Central entity home covering teaching philosophy, academic coursework, athletic leadership, and quantitative research.
+- **Culinary Intelligence App:** https://rkohnmn.github.io/culinary-intelligence-app/ — Deterministic decision-support workbench, 491-ingredient / 2,749-pairing culinary knowledge graph, and Cooking for Engineers process matrix generator.
 - **Secondary Website:** https://rkohnmn.github.io/MTH229/ — Interactive R flexdashboard capstone analyzing collegiate volleyball telemetry and spatial tracking.
 - **Teaching Certification Portfolio:** https://rkohnmn.github.io/Robbie_Kohn_Certification_Portfolio.pdf — 59-page professional teaching portfolio including educational philosophy, lesson architectures, classroom management plans, and academic preparation.
 
@@ -23,6 +24,7 @@
 - **Muhlenberg Athletics (Historical):** https://muhlenbergsports.com/sports/football/roster/robbie-kohn/12586
 
 ## Key Projects & Technical Competencies
+- **Culinary Intelligence Workbench:** Deterministic client-side culinary intelligence system featuring a 491-ingredient and 2,749-pairing graph, multi-ingredient compatibility ranking, dual-mode recipe instructions (step-by-step and tabular Cooking for Engineers dependency matrices), USDA FoodData Central nutrition calculation, and offline IndexedDB persistence.
 - **Racc Analytics:** Competitive intelligence and esports telemetry platform analyzing high-dimensional player performance data, spatial K/D heatmaps, tactical plant matrices, and clutch/trade modeling.
 - **MTH 229 Volleyball Analytics Dashboard:** Live flexdashboard built in R utilizing advanced data visualization for athlete jump metrics, spatial distribution, and set tendencies.
-- **Programming & Analysis:** Python, R, SQL, HTML/CSS, Git, LaTeX, Statistical Modeling, Predictive Analytics, High School STEM Pedagogy.
+- **Programming & Analysis:** Python, R, SQL, HTML/CSS, JavaScript, Git, LaTeX, Statistical Modeling, Predictive Analytics, High School STEM Pedagogy.
