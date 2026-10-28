@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page Not Found (404) | Robbie Kohn</title>
   <meta name="robots" content="noindex, follow">
-  <meta name="description" content="The requested page could not be found on Robbie Kohn's personal and academic portfolio website.">
+  <meta name="description" content="The requested page could not be found on Robbie Kohn's personal portfolio website. Explore the complete directory of live websites and statistical instruments.">
   <meta name="theme-color" content="#20332f">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
   <style>
@@ -37,12 +37,12 @@
       text-rendering: optimizeLegibility;
     }
     .container {
-      max-width: 620px;
+      max-width: 680px;
       width: 100%;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 48px 40px;
+      padding: 40px;
       box-shadow: 0 4px 24px rgba(32, 51, 47, 0.06);
     }
     .badge {
@@ -52,51 +52,74 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--gold);
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
     h1 {
       font-family: "Newsreader", Georgia, serif;
-      font-size: 38px;
+      font-size: 34px;
       font-weight: 400;
       line-height: 1.2;
       color: var(--ink);
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
-    p {
+    p.lead {
       color: var(--muted);
-      font-size: 16px;
-      margin-bottom: 28px;
+      font-size: 15px;
+      margin-bottom: 24px;
+    }
+    .section-title {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
     }
     .nav-list {
       list-style: none;
-      border-top: 1px solid var(--border);
-      padding-top: 20px;
-      margin-bottom: 32px;
       display: grid;
-      gap: 12px;
+      gap: 10px;
+      margin-bottom: 24px;
     }
     .nav-list a {
-      color: var(--accent);
+      color: var(--ink);
       text-decoration: none;
-      font-weight: 600;
-      font-size: 15px;
-      display: inline-flex;
+      font-weight: 500;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      gap: 8px;
-      transition: color 0.15s ease;
+      padding: 8px 12px;
+      background: #faf8f5;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      transition: all 0.15s ease;
     }
     .nav-list a:hover {
-      color: var(--gold);
-      text-decoration: underline;
+      background: #ffffff;
+      border-color: var(--gold);
+      color: var(--accent);
+    }
+    .nav-list a span.tag {
+      font-size: 11px;
+      font-family: monospace;
+      color: var(--muted);
+    }
+    .cta-row {
+      display: flex;
+      gap: 12px;
+      margin-top: 8px;
     }
     .btn-home {
       display: inline-block;
       background-color: var(--ink);
       color: var(--paper);
-      padding: 12px 24px;
+      padding: 10px 20px;
       border-radius: 4px;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 600;
       letter-spacing: 0.03em;
       transition: background-color 0.2s ease;
@@ -105,8 +128,8 @@
       background-color: var(--accent);
     }
     footer {
-      margin-top: 28px;
-      font-size: 13px;
+      margin-top: 24px;
+      font-size: 12px;
       color: var(--muted);
       text-align: center;
     }
@@ -114,24 +137,39 @@
 </head>
 <body>
   <main class="container">
-    <span class="badge">Error 404 &bull; Page Not Found</span>
+    <span class="badge">HTTP 404 &bull; Page Not Found</span>
     <h1>Looking for Robbie Kohn's work?</h1>
-    <p>The page you requested is not available or may have moved. You can find Robbie's teaching philosophy, academic background, quantitative projects, and certification portfolio at the links below:</p>
+    <p class="lead">The page you requested could not be found. Explore all authoritative active websites across the portfolio and DataSense Studio ecosystem below:</p>
     
+    <div class="section-title">Core Portfolio &amp; Projects</div>
     <ul class="nav-list">
-      <li><a href="/">&rarr; Return to Main Portfolio Homepage</a></li>
-      <li><a href="/#teaching">&rarr; Secondary STEM Teaching &amp; Philosophy</a></li>
-      <li><a href="/#academics">&rarr; Academic Coursework (Physics, Math, Statistics)</a></li>
-      <li><a href="/#projects">&rarr; Quantitative Projects &amp; Racc Analytics</a></li>
-      <li><a href="/MTH229/">&rarr; MTH 229 Volleyball Analytics Dashboard</a></li>
-      <li><a href="/Robbie_Kohn_Certification_Portfolio.pdf">&rarr; Teaching Certification Portfolio (59-page PDF)</a></li>
-      <li><a href="/#contact">&rarr; Contact &amp; Professional Profiles</a></li>
+      <li><a href="/"><span><strong>Portfolio Home</strong> &mdash; Robbie Kohn Academic &amp; Personal Website</span> <span class="tag">rkohnmn.github.io</span></a></li>
+      <li><a href="/#teaching"><span><strong>Teaching Philosophy</strong> &mdash; Secondary STEM Education</span> <span class="tag">#teaching</span></a></li>
+      <li><a href="/#academics"><span><strong>Academic Background</strong> &mdash; Physics, Math, Statistics</span> <span class="tag">#academics</span></a></li>
+      <li><a href="/#projects"><span><strong>Quantitative Projects</strong> &mdash; Applied Analytics</span> <span class="tag">#projects</span></a></li>
+      <li><a href="/culinary-intelligence-app/"><span><strong>Culinary Intelligence</strong> &mdash; Decision-Support Graph</span> <span class="tag">culinary-app</span></a></li>
+      <li><a href="/MTH229/"><span><strong>MTH 229 Dashboard</strong> &mdash; Volleyball Telemetry</span> <span class="tag">MTH229</span></a></li>
+      <li><a href="/Robbie_Kohn_Certification_Portfolio.pdf"><span><strong>Certification Portfolio</strong> &mdash; 59-Page PDF</span> <span class="tag">portfolio.pdf</span></a></li>
     </ul>
 
-    <a href="/" class="btn-home">Return to Home</a>
+    <div class="section-title">DataSense Studio Statistical Laboratories</div>
+    <ul class="nav-list">
+      <li><a href="/datasense-studio/"><span><strong>DataSense Studio</strong> &mdash; Flagship Statistical Instrument Hub</span> <span class="tag">datasense-studio</span></a></li>
+      <li><a href="/datasense-studio/compass/"><span><strong>DataSense Compass</strong> &mdash; Dataset Profiler, Gate &amp; Router</span> <span class="tag">compass</span></a></li>
+      <li><a href="/datamend-lab/"><span><strong>01 &bull; DataMend Lab</strong> &mdash; Hygiene, Schema Audit &amp; Repair</span> <span class="tag">datamend-lab</span></a></li>
+      <li><a href="/visualgrammar/"><span><strong>02 &bull; VisualGrammar</strong> &mdash; Grammar of Graphics Canvas</span> <span class="tag">visualgrammar</span></a></li>
+      <li><a href="/quartetlab/"><span><strong>03 &bull; QuartetLab</strong> &mdash; Anscombe &amp; Bivariate Diagnostics</span> <span class="tag">quartetlab</span></a></li>
+      <li><a href="/resamplelab/"><span><strong>04 &bull; ResampleLab</strong> &mdash; Bootstrap &amp; Permutation Inference</span> <span class="tag">resamplelab</span></a></li>
+      <li><a href="/forecastlab/"><span><strong>05 &bull; ForecastLab</strong> &mdash; STL Decomposition &amp; Forecasting</span> <span class="tag">forecastlab</span></a></li>
+    </ul>
+
+    <div class="cta-row">
+      <a href="/" class="btn-home">Return to Portfolio Home</a>
+      <a href="/datasense-studio/" class="btn-home" style="background-color: var(--accent);">Open DataSense Studio</a>
+    </div>
   </main>
   <footer>
-    <p>&copy; Robbie Kohn &bull; Muhlenberg College</p>
+    <p>&copy; Robbie Kohn &bull; Muhlenberg College &bull; Physics, Mathematics, Statistics</p>
   </footer>
 </body>
 </html>

@@ -15,4 +15,4 @@ Official personal portfolio website of **Robbie Kohn**, undergraduate student at
 - **Classroom Experience:** Substitute Teacher, Weston Public Schools (2024–2027)
 - **Leadership:** Head Chef / Head Cook, Weston Field Club (2024–2026)
 - **Athletics:** Offensive Lineman (#72), Muhlenberg College Football; Muhlenberg Club Volleyball Leadership
-- **Software Projects:** Creator of [Racc Analytics](https://github.com/rkohnmn) (in active development; staging for public release)
+- **Software Projects:** Creator of [DataSense Studio](https://rkohnmn.github.io/datasense-studio/) & [DataSense Compass](https://rkohnmn.github.io/datasense-studio/compass/) ([GitHub](https://github.com/rkohnmn/datasense-studio)) — flagship browser-native statistical instrument ecosystem connecting five laboratories (DataMend Lab, VisualGrammar, QuartetLab, ResampleLab, and ForecastLab).
