@@ -25,6 +25,6 @@
 
 ## Key Projects & Technical Competencies
 - **Culinary Intelligence Workbench:** Deterministic client-side culinary intelligence system featuring a 491-ingredient and 2,749-pairing graph, multi-ingredient compatibility ranking, dual-mode recipe instructions (step-by-step and tabular Cooking for Engineers dependency matrices), USDA FoodData Central nutrition calculation, and offline IndexedDB persistence.
-- **DataSense Studio & DataSense Compass:** Flagship browser-native statistical instrument hub (https://rkohnmn.github.io/datasense-studio/) and intelligent discovery engine connecting five laboratories (DataMend Lab, VisualGrammar, QuartetLab, ResampleLab, ForecastLab) with 100% client-side privacy.
+- **DataSense Studio & DataSense Compass:** Browser-based statistical workspace (https://rkohnmn.github.io/datasense-studio/). Compass profiles data quality and explores relationships, then recommends a next step across DataMend Lab, VisualGrammar, QuartetLab, ResampleLab, and ForecastLab. Dataset processing runs locally in the browser; built-in examples support exploration without an import.
 - **MTH 229 Volleyball Analytics Dashboard:** Live flexdashboard built in R utilizing advanced data visualization for athlete jump metrics, spatial distribution, and set tendencies.
 - **Programming & Analysis:** Python, R, SQL, HTML/CSS, JavaScript, Git, LaTeX, Statistical Modeling, Predictive Analytics, High School STEM Pedagogy.

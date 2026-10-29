@@ -1521,6 +1521,24 @@ is embedded in the download anchor. No trackers, backend, cookies or remote font
       align-self: flex-start
     }
 
+    /* Full-bleed editorial artwork, consistent with the Culinary project below. */
+    .project-feature.datasense-project { gap: 0; }
+    .project-art.datasense-preview {
+      margin: 0; padding: 0; min-height: 420px; display: block; background: #14241c;
+    }
+    .datasense-preview a { display: block; position: absolute; inset: 0; }
+    .datasense-preview img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+    .datasense-preview a:focus-visible { outline: 3px solid #f4ead3; outline-offset: -6px; }
+    .datasense-project .project-info { padding: clamp(32px, 4vw, 56px); }
+    .datasense-project .project-info .label { line-height: 1.6; }
+    .datasense-project .project-info .copy { max-width: 46ch; }
+    .datasense-project .project-actions { display: flex; flex-wrap: wrap; gap: 12px 28px; margin-top: 28px; }
+    .datasense-project .project-actions .text-link { margin-top: 0; }
+    @media (max-width: 950px) {
+      .datasense-project .datasense-preview { min-height: 0; aspect-ratio: 4 / 3; }
+      .datasense-project .project-info { padding: 30px 24px 36px; }
+    }
+
     .project-info {
       padding: clamp(28px, 4vw, 56px);
       display: flex;
@@ -3513,24 +3531,23 @@ TODO: Add GPA only if Robbie elects to publish it, then use the current transcri
         <p class="copy lede">Programming gives me another way to explore a question. It connects naturally with my
           interests in statistics, models, and how ideas are explained.</p>
       </div>
-            <article class="project-feature" aria-labelledby="datasense-studio-title">
-        <div class="project-art" aria-hidden="true"
-          style="padding:0;background:#0d1117;display:flex;align-items:center;justify-content:center;overflow:hidden">
-          <img
-            src="https://rkohnmn.github.io/datasense-studio/assets/screenshots/quartetlab.png"
-            alt="DataSense Studio &amp; DataSense Compass Statistical Instrument Ecosystem Workspace" loading="lazy" decoding="async"
-            width="1024" height="640"
-            style="width:100%;height:100%;object-fit:cover;object-position:left top;display:block" />
-        </div>
+      <article class="project-feature datasense-project" aria-labelledby="datasense-studio-title">
+        <figure class="project-art datasense-preview">
+          <a href="https://rkohnmn.github.io/datasense-studio/" target="_blank" rel="noopener noreferrer"
+            aria-label="Explore DataSense Studio (opens in a new tab)">
+            <img src="assets/projects/datasense-editorial.webp"
+              alt="Conceptual illustration of emerald glass columns and brass data points on graph paper."
+              width="1536" height="1024" loading="lazy" decoding="async" />
+          </a>
+        </figure>
         <div class="project-info">
-          <span class="label">Flagship statistical instrument hub &amp; compass</span>
+          <span class="label">Statistical discovery &amp; analysis</span>
           <h3 id="datasense-studio-title">DataSense Studio</h3>
-          <p class="copy">Flagship statistical instrument hub and DataSense Compass discovery engine connecting five browser-native laboratories (DataMend Lab, VisualGrammar, QuartetLab, ResampleLab, and ForecastLab) for 100% local data hygiene, visualization, diagnostics, resampling, and forecasting.</p>
-          <div class="skill-words" style="margin-top:14px;margin-bottom:18px;font-size:11px">Local-First Privacy • Data Discovery &amp; Quality Gating • Bivariate Diagnostics • Bootstrap Inference • Time-Series Forecasting</div>
-          <div style="display:flex;gap:20px;flex-wrap:wrap">
-            <a class="text-link" href="https://rkohnmn.github.io/datasense-studio/" target="_blank" rel="noopener noreferrer">Launch DataSense Studio <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens in a new tab)</span></a>
-            <a class="text-link" href="https://rkohnmn.github.io/datasense-studio/compass/" target="_blank" rel="noopener noreferrer">Launch DataSense Compass <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens in a new tab)</span></a>
-            <a class="text-link" href="https://github.com/rkohnmn/datasense-studio" target="_blank" rel="noopener noreferrer">View on GitHub (rkohnmn) <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens in a new tab)</span></a>
+          <p class="copy">From a raw dataset to a better question. I built DataSense Studio to make statistical exploration more approachable: Compass checks data quality and reveals relationships, while five focused labs support cleaning, visualization, regression, resampling, and forecasting. Everything is computed locally in the browser, with built-in examples to help you get started.</p>
+          <div class="skill-words" style="margin-top:22px;font-size:11px">JavaScript · Statistical computing · Data visualization</div>
+          <div class="project-actions">
+            <a class="text-link" href="https://rkohnmn.github.io/datasense-studio/" target="_blank" rel="noopener noreferrer">Launch Live App <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens in a new tab)</span></a>
+            <a class="text-link" href="https://github.com/rkohnmn/datasense-studio" target="_blank" rel="noopener noreferrer">View on GitHub <svg aria-hidden="true"><use href="#i-arrow" /></svg><span class="sr-only"> (opens in a new tab)</span></a>
           </div>
         </div>
       </article>
