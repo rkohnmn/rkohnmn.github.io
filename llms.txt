@@ -15,7 +15,7 @@
 - **Primary Website:** https://rkohnmn.github.io/ — Central entity home covering teaching philosophy, academic coursework, athletic leadership, and quantitative research.
 - **Culinary Intelligence App:** https://rkohnmn.github.io/culinary-intelligence-app/ — Deterministic decision-support workbench, 491-ingredient / 2,749-pairing culinary knowledge graph, and Cooking for Engineers process matrix generator.
 - **Secondary Website:** https://rkohnmn.github.io/MTH229/ — Interactive R flexdashboard capstone analyzing collegiate volleyball telemetry and spatial tracking.
-- **Teaching Certification Portfolio:** https://rkohnmn.github.io/Robbie_Kohn_Certification_Portfolio.pdf — 59-page professional teaching portfolio including educational philosophy, lesson architectures, classroom management plans, and academic preparation.
+- **Teaching Certification Portfolio:** https://rkohnmn.github.io/Robbie_Kohn_Certification_Portfolio.pdf — 61-page professional teaching portfolio including educational philosophy, lesson architectures, classroom management plans, and academic preparation.
 
 ## Verified External Profiles
 - **GitHub:** https://github.com/rkohnmn (Public repositories in applied statistics, predictive modeling, computational physics, and algorithmic Python)
